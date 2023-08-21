@@ -34,12 +34,15 @@ Check out the [Edge Gateway documentation](./packages/edge-gateway-link).
 
 Want to help us improve w3link? Great! This project uses node v16 and pnpm. It's a monorepo that use workspaces to handle resolving dependencies between the local `packages/*` folders.
 
+Copy the <.wrangler.toml> file to `wrangler.toml` and replace lines 19 and 49 with the Account ID of the Cloudflare account you want to use. 
+
 Copy the <.env.tpl> file to `.env` and install the deps with `pnpm`.
 
 ```console
 # install deps
 pnpm install
 ```
+
 
 # Contributing
 
