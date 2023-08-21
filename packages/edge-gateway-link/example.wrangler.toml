@@ -16,7 +16,7 @@ ENV = "dev"
 # PROD!
 [env.production]
 # name = "w3link-edge-gateway-production"
-account_id = "REPLACE WITH ACCOUNT ID" # Users CloudFlare account
+account_id = "***REPLACE WITH ACCOUNT ID***" # Users CloudFlare account
 routes = [
   { pattern = "w3s.link/ipfs/*", zone_id = "ae60d8f737317467ec666dc3851a6277" },
   { pattern = "*.ipfs.w3s.link/*", zone_id = "ae60d8f737317467ec666dc3851a6277" },
@@ -46,7 +46,7 @@ environment = "production"
 # Staging!
 [env.staging]
 # name = "gateway-nft-storage-staging"
-account_id = "REPLACE WITH ACCOUNT ID" # Users CloudFlare account
+account_id = "***REPLACE WITH ACCOUNT ID***" # Users CloudFlare account
 routes = [
   { pattern = "*.ipfs-staging.w3s.link/*", zone_id = "ae60d8f737317467ec666dc3851a6277" },
   { pattern = "ipfs-staging.w3s.link/*", zone_id = "ae60d8f737317467ec666dc3851a6277" },
